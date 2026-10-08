@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 448px;
+  padding: 16px;
+  border-radius: 16px;
+  font-size: 16px;
+}
+.filter__list {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  color: #111827;
+}
+.filter__button {
+  padding: 12px 24px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.filter__button.active {
+  background-color: #523ee8;
+  color: #fff;
+}
